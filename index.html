@@ -1,0 +1,44 @@
+<!DOCtype html>
+<html lang="es">
+<head>
+  <title>Clase 09</title>
+  <script src="clase09.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ <h2>Clase 09</h2>
+
+ 
+  <form>
+  <table class="calculadora" border=10 cellpadding=3>
+  <tr>
+  <td id="titulos">Precio</td>
+  <td id="titulos">Impuesto (%)</td>
+  </tr>
+  <tr>
+  <td ><input type="text" name="precio" size=11>
+  <td ><input type="text" name="impuesto" value=".65" size=15>
+  </tr>
+  </table> 
+  <table class="calculadora" border=10 cellpadding=3>
+  <tr>
+  <td id="titulos">Valor impuesto</td>
+  <td id="titulos">Costo total</td>
+  </tr>
+  <tr>
+  <td ><input type="text" name="valorImp" size=15>
+  <td ><input type="text" name="costoTotal" size=10>
+  </tr>
+  </table>
+  <br>
+  <table class="botonera">
+  <tr>
+  <td ><input type="reset"  value="LIMPIAR" onClick="limpiar()">
+  <td ><input type="button" value="CALCULAR" onclick="calcular()">
+  </tr>
+  </table>
+  </form>
+ 
+
+</body>
+</html>
